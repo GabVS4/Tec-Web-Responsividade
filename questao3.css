@@ -1,0 +1,50 @@
+@media (max-width: 480px) {   
+    .verde{
+        display: block;
+    }
+    .azul{
+        display: none;
+    }
+    .magenta{
+        display: none;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1920px) {   
+    .verde{
+        display: block;
+    }
+    .azul{
+        display: block;
+    }
+    .magenta{
+        display: none;
+    }
+}
+
+@media (min-width: 1921px) {   
+    .verde{
+        display: block;
+    }
+    .azul{
+        display: block;
+    }
+    .magenta{
+        display: block;
+    }
+}
+
+.verde{
+    background-color: green;
+    height: 20vh;
+}
+
+.azul{
+    background-color: blue;
+    height: 20vh;
+}
+
+.magenta{
+    background-color: magenta;
+    height: 20vh;
+}

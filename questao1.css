@@ -1,0 +1,51 @@
+@media (min-width: 320px) { 
+    .cor_fundo {
+        background-color: black;
+    }
+}
+
+@media (min-width: 480px) { 
+    .cor_fundo {
+        background-color: lightblue;
+    }
+}
+
+@media (min-width: 600px) { 
+    .cor_fundo {
+        background-color: lightgreen;
+    }
+}
+
+@media (min-width: 768px) { 
+    .cor_fundo {
+        background-color: lightyellow;
+    }
+}
+
+@media (min-width: 800px) { 
+    .cor_fundo {
+        background-color: brown;
+    }
+}
+
+@media (min-width: 1024px) { 
+    .cor_fundo {
+        background-color: darkblue;
+    }
+}
+
+@media (min-width: 1280px) { 
+    .cor_fundo {
+        background-color: darkgreen;
+    }
+}
+
+@media (min-width: 1440px) { 
+    .cor_fundo {
+        background-color: darkred;
+    }
+}
+
+.cor_fundo{
+    height: 100vh;
+}
